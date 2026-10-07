@@ -54,8 +54,10 @@ public class Board {
     public boolean addToken(int colToAddToken, String token) {
         int rowToAddToken = board.length - 1;
 
-        if (columnFull(colToAddToken) == true)
+        if (columnFull(colToAddToken) == true){
+            System.out.println("Column is full. Please choose another column.");
             return false;
+        }
 
         boolean tokenPlaced = false;
 
