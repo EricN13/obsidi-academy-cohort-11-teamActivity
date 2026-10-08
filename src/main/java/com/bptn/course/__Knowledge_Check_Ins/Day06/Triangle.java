@@ -1,4 +1,4 @@
-package com.bptn.course.__Coding_Exercises;
+package com.bptn.course.__Knowledge_Check_Ins.Day06;
 
 import java.util.Scanner;
 
