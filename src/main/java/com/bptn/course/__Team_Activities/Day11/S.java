@@ -1,6 +1,6 @@
 package com.bptn.course.__Team_Activities.Day11;
 
-public class s {
+public class S {
     public void proc(String n, int s, double p) {
         if (n != null) {
             if (!n.isEmpty()) {
