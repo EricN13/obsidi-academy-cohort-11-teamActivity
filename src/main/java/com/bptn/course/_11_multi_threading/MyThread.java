@@ -14,6 +14,8 @@ public class MyThread extends Thread {
 	  public static void main(String[] args) {
 	    MyThread thread = new MyThread();
 	    System.out.println(thread.getState());
+	    thread.setName("LoopThread");
+	    System.out.println(thread.getName());
 	    thread.start();
 	    for(int i=10; i<20;i++) {
 	    	System.out.println(i);
